@@ -1,0 +1,143 @@
+.header{
+	height: 450px;
+	width: 100%;
+	background: rgb(62,57,107);
+	position: relative;
+
+}
+
+.header__texture{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;left: 0;
+	background: url('../img/cuisine.jpg') center no-repeat;
+	background-size: cover;
+	z-index: 1;
+	opacity: 0.5;
+
+
+}
+
+
+
+.header__texture2{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;left: 0;
+	background: url('../img/hygiene.jpg') center no-repeat;
+	background-size: cover;
+	z-index: 1;
+	opacity: 0.5;
+
+}
+
+.header__texture3{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;left: 0;
+	background: url('../img/pizza.jpg') center no-repeat;
+	background-size: cover;
+	z-index: 1;
+	opacity: 0.5;
+
+}
+
+.header__mask{
+
+	position: absolute;
+	bottom: 0;
+	background: 0 0;
+	height: 42px;
+	width: 100%;
+	z-index: 10;
+	
+}
+
+
+
+
+.header__navbar {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__navbar--logo-title{
+	color: #fff;
+	text-align: center;
+	font-size: 40px;
+    
+
+
+}
+
+.header__navbar--menu-link {
+	margin-left: 40px;
+	color: #fff;
+	text-decoration: none;
+    
+}
+
+.header__slogan{
+	text-align: center;
+	margin-top: 60px;
+}
+
+.h__slogan--title{
+	color: #fff;
+	font-size:30px;
+	text-transform: uppercase;
+	font-family: 'Anton';
+	font-style: italic;
+	letter-spacing: 2Px;
+}
+
+.h__slogan--title2{
+color: #fff;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-family: 'Anton';
+	font-style: italic;
+	letter-spacing: 2Px;
+	
+
+}
+
+
+.h__slogan--title3{
+color: #fff;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-family: 'Anton';
+	font-style: italic;
+	letter-spacing: 2Px;
+
+}
+.h__slogan--btn{
+	color: #fff;
+	text-decoration: none;
+	padding: 15px 20px;
+	background: #00a8ff;
+	border-radius: 3px;
+	
+}
+
+
+#nav {
+	padding: 0; margin: 0;
+	text-align: center; /* centrer le texte */
+}
+#nav li {
+	display: inline;
+	list-style: none;
+}
+#nav a {
+	display:inline-block;
+	margin: 0 30px;
+}

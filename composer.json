@@ -1,0 +1,16 @@
+{
+    "name": "lucas/site",
+    "authors": [
+        {
+            "name": "Lucas",
+            "email": "galbiatilucas@outlook.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "Calendar\\": "src/Calendar",
+            "App\\": "src/App"
+        }
+    },
+    "require": {}
+}

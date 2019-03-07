@@ -1,0 +1,86 @@
+
+
+
+
+
+* {padding:0; margin:0;}
+ol {position:relative; margin:0 10%; list-style:none;}
+ul {list-style:inside;}
+h1{text-align: center;}
+h2{text-decoration:underline;}
+#TypeFormation,#Objectif,#Programme{position:absolute; width:50%; height:100%;}
+#Objectif {right:40%;}
+#Programme {left:50%;}
+#Objectifs{right:55%;position:absolute; width:25%; height:100%;}
+
+
+ .formation{
+
+	margin-top: 50px;
+}
+
+
+
+.formation-objectif2{
+
+	padding-top: 100px;
+	margin-right: 100px ;
+	padding: 15px 20px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 3px;
+	font-family: 'Nunito';
+
+}
+
+
+.formation-objectif2{
+
+
+	margin-left: auto;
+    margin-right: auto;
+	
+}
+
+
+#nav {
+	padding: 0; margin: 0;
+	text-align: center; /* centrer le texte */
+}
+#nav li {
+	display: inline;
+	list-style: none;
+}
+#nav a {
+	display:inline-block;
+	margin: 0 30px;
+}
+
+
+
+li{
+ 
+    word-wrap: break-word; ;
+}
+
+.marge {
+margin-left: 5em;
+
+
+}
+
+a{
+	color: #0000FF;
+
+
+}
+
+div.bodys{
+position:absolute;
+	left: 50%;
+	top: 50%;
+	width: 200px;
+	height: 200px;
+	margin-left: -100px; /* Cette valeur doit être la moitié négative de la valeur du width */
+	margin-top: -100px; /* Cette valeur doit être la moitié négative de la valeur du height */
+}
